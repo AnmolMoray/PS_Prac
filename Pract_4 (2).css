@@ -1,0 +1,101 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(Images/chess_2.png);
+  }
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  ul {
+    list-style: none;
+  }
+  header {
+    background-color:maroon ;
+    padding: 1rem;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  nav li {
+    margin-right: 1rem;
+  }
+  a{
+    color: yellow;
+  }
+  .scoreBoard{
+    background:rgb(1, 91, 186);
+    color: greenyellow;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+  table{
+    border: solid black 2px;
+    margin-left: 30%;
+}
+td{
+    padding: 5px;
+}
+  .hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 0;
+  }
+  .feature {
+    text-align: center;
+    padding: 2rem;
+  }
+  .feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .Interact{
+    display :flex ;
+    justify-content: space-around;
+  }
+  .games{
+    text-align: center;
+    border: solid yellowgreen 2px;
+    border-radius: 9px;
+    padding: 3rem;
+    color: green;
+  }
+  .games p{
+    background-color: rgb(172, 0, 0);
+    color: yellow;
+  }
+  .games h2{
+    color: black;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
